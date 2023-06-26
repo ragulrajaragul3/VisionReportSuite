@@ -1,0 +1,48 @@
+package com.vision.util;
+
+public class Constants {
+	public static final int STATUS_ZERO, ERRONEOUS_OPERATION = STATUS_ZERO = 0;
+	public static final int SUCCESSFUL_OPERATION,STATUS_UPDATE = SUCCESSFUL_OPERATION = 1;
+	public static final int WE_HAVE_WARNING_DESCRIPTION = 36;
+	public static final int INVALID_STATUS_FLAG_IN_DATABASE, STATUS_INSERT = INVALID_STATUS_FLAG_IN_DATABASE = 2;
+	public static final int DUPLICATE_KEY_INSERTION,STATUS_DELETE = DUPLICATE_KEY_INSERTION = 3;
+	public static final int STATUS_PENDING, RECORD_PENDING_FOR_DELETION = STATUS_PENDING = 4;
+	public static final int ATTEMPT_TO_MODIFY_UNEXISTING_RECORD = 5;
+	public static final int ATTEMPT_TO_DELETE_UNEXISTING_RECORD = 6;
+	public static final int TRYING_TO_DELETE_APPROVAL_PENDING_RECORD = 7;
+	public static final int NO_SUCH_PENDING_RECORD = 8;
+	public static final int PENDING_FOR_ADD_ALREADY, PASSIVATE = PENDING_FOR_ADD_ALREADY = 9;
+	public static final int RECORD_ALREADY_PRESENT_BUT_INACTIVE = 10;
+	public static final int CANNOT_DELETE_AN_INACTIVE_RECORD = 11;
+	public static final int NO_RECORDS_TO_APPROVE = 12;
+	public static final int NO_RECORDS_TO_REJECT = 13;
+	public static final int MAKER_CANNOT_APPROVE = 14;
+	public static final int WE_HAVE_ERROR_DESCRIPTION = 20;
+	public static final int PAGE_DISPLAY_SIZE, VALIDATION_NO_ERRORS = PAGE_DISPLAY_SIZE = 25;
+	public static final int VALIDATION_ERRORS_FOUND = 26;
+	public static final int AUDIT_TRAIL_ERROR = 30;
+	public static final int BUILD_IS_RUNNING = 38;
+	public static final int BUILD_IS_RUNNING_APPROVE = 39;
+	public static final int FILE_UPLOAD_REMOTE_ERROR = 47;
+	public static final int NO_RECORDS_FOUND = 41;
+	public static final int FIN_ADJ_APPROVE_STATUS = 40;
+	public static final int FIN_ADJ_INACTIVE_STATUS = 50;
+	public static final int FIN_ADJ_DELETE_STATUS = 60;
+	public static final int FINANCIAL_FETCH_SIZE = 500;
+	public static final int YEAR_NOT_MAINTAIN = 49;
+	public static final int LONG_MAX_LENGTH=19;
+	public static final String ADD = "Add";
+	public static final String MODIFY = "Modify";
+	public static final String DELETE = "Delete";
+	public static final String APPROVE = "Approve";
+	public static final String REJECT = "Reject";
+	public static final String COPY = "Copy";
+	public static final String MOVE = "Move";
+	public static final String QUERY = "Query";
+	public static final String SAVE = "Save";
+	public static final String Verification = "verification";
+	public static final String Resubmission = "resubmission";
+	public static final String Rejection = "rejection";
+	public static final int DB_CONNECTION_ERROR = 50;
+	public static final String EMPTY = "";	
+}
